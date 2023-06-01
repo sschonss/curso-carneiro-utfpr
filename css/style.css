@@ -1,0 +1,39 @@
+#tarefa{
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#adicionar{
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+#tabela_tarefas{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#tabela_tarefas th{
+    text-align: center;
+    border: 0px
+}
+
+
+
+
+#card{
+    width: 500px; 
+    height: 500px;
+    margin: 0 auto; 
+    border: 1px solid #000000; 
+    border-radius: 10px; 
+    padding: 20px;
+    box-shadow: #000000 0px 0px 10px 0px;
+}
