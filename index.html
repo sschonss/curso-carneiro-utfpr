@@ -19,7 +19,7 @@
 
         <form >
             <input type="text" name="tarefa" id="tarefa" placeholder="Digite sua tarefa">
-            <input type="submit" id="adicionar" value="Adicionar">
+            <button type="button" id="adicionar" onclick="salvarTarefa()">Adicionar</button>
         </form>
 
         <br>
@@ -27,15 +27,12 @@
         <table border="1" width="100%" id="tabela_tarefas">
             <tr>
                 <th>Tarefa</th>
-                <th>Opções</th>
-            </tr>
-
-            <tr id="lista_tarfas">
+                <th>Ações</th>
             </tr>
         </table>
 
     </div>
 
-    
+    <script src="js/script.js"></script>
 </body>
 </html>
