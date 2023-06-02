@@ -64,4 +64,8 @@ Durante o curso, os alunos irão desenvolver um Todo List, que será utilizado p
 
 - Todos os assunstos serão abordados do zero, porém, é necessário que o aluno tenha conhecimento básico de informática.
 
+---
 
+## Observações
+
+No javascript, utilizaremos o [parentNode](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/parentNode) para manipular o DOM, para isso, é necessário que o aluno tenha conhecimento básico de [DOM](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM).
