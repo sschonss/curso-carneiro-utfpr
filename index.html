@@ -1,38 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
-
-    <link rel="stylesheet" href="css/style.css">
-
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-    <!-- card centralizado com bordas arredondadas sem usar bootstrap -->
-
-    <div id="card">
-
-        <h1 style="text-align: center;">To Do List</h1>
-
-        <form >
-            <input type="text" name="tarefa" id="tarefa" placeholder="Digite sua tarefa">
-            <button type="button" id="adicionar" onclick="salvarTarefa()">Adicionar</button>
-        </form>
-
-        <br>
-
-        <table border="1" width="100%" id="tabela_tarefas">
-            <tr>
-                <th>Tarefa</th>
-                <th>Ações</th>
-            </tr>
-        </table>
-
+    <div class="app">
+        <h1>Lista de Tarefas</h1>
+  
+  <form id="task-form">
+    <input type="text" id="task-input" placeholder="Digite uma tarefa" required>
+    <button type="submit">Adicionar</button>
+  </form>
+  
+  <table id="task-table" class="task-table">
+    <thead>
+      <tr>
+        <th>Completado</th>
+        <th>Tarefa</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody id="task-list"></tbody>
+  </table>
+  
+  <script src="js/script.js"></script>
     </div>
-
-    <script src="js/script.js"></script>
+  
 </body>
 </html>
